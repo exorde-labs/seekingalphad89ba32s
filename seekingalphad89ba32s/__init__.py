@@ -106,7 +106,6 @@ def request_content_with_timeout(_url, _max_age):
         return Item(
             title=Title(post_title),
             content=Content(content),
-            author=Author(author),
             created_at=CreatedAt(post_date),
             url=Url(_url),
             domain=Domain("seekingalpha.com"))
