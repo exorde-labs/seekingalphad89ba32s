@@ -2,7 +2,7 @@ from setuptools import find_packages, setup
 
 setup(
     name="seekingalphad89ba32s",
-    version="0.0.1",
+    version="0.0.2",
     packages=find_packages(),
     install_requires=[
         "exorde_data",
